@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Book</title>
+    <style>
+        body {
+            padding: 0 10%;
+            font-family: 'Poppins', sans-serif;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        header {
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #000;
+        }
+        header a {
+            color: #000;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        #main_info {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            gap: 40px;
+        }
+        #nav {
+            display: flex;
+            gap: 20px;
+        }
+        #active-link {
+            color: #00f;
+        }
+        .row-movie {
+            display: flex;
+            justify-content: space-between;
+        }
+        .film img {
+            width: 300px;
+            height: 444px;
+        }
+        .film {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Recomendation</h1>
+        <div id="nav">
+            <a href="main_page.html">Main</a>
+            <a href="char_page.html">Character</a>
+            <a id="active-link" href="rec_page.html">Recomendation</a>
+        </div>
+    </header>
+    
+    <section id="main_info">
+        <h1>Movies you should watch</h1>
+        <div class="row-movie">
+            <div class="film">
+                <img src="images/interstellar.jpg" alt="">
+                <p>Interstellar</p>
+            </div>
+            <div class="film">
+                <img src="images/shawshank.jpg" alt="">
+                <p>The Shawshank Redemption</p>
+            </div>
+            <div class="film">
+                <img src="images/titanic.jpg" alt="">
+                <p>Titanic</p>
+            </div>
+        </div>
+        <div class="row-movie">
+            <div class="film">
+                <img src="images/imitation.jpg" alt="">
+                <p>Imitation game</p>
+            </div>
+            <div class="film">
+                <img src="images/ridge.jpg" alt="">
+                <p>Hacksaw ridge</p>
+            </div>
+            <div class="film">
+                <img src="images/player_one.webp" alt="">
+                <p>Player one ready</p>
+            </div>
+        </div>
+        <div class="row-movie">
+            <div class="film">
+                <img src="images/maze.jpg" alt="">
+                <p>The maze runner</p>
+            </div>
+            <div class="film">
+                <img src="images/joker.jpg" alt="">
+                <p>Joker</p>
+            </div>
+            <div class="film">
+                <img src="images/adaline.jpg" alt="">
+                <p>The age of Adaline</p>
+            </div>
+        </div>
+        <div class="row-movie">
+            <div class="film">
+                <img src="images/bird.webp" alt="">
+                <p>Bird Box</p>
+            </div>
+            <div class="film">
+                <img src="images/shutter_island.jpg" alt="">
+                <p>Shutter island</p>
+            </div>
+            <div class="film">
+                <img src="images/boy.jpg" alt="">
+                <p>Boy in the striped pajamas</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

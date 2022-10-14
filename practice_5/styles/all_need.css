@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+a, button {
+    cursor: pointer;
+}
+body {
+    padding: 20px;
+    background-color: #fcf3ea;
+}
+header, section {
+    background-color: #fff;
+}
+section {
+    padding: 0 5%;
+    padding-bottom: 50px;
+}
+
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+}
+.header-menu h1 {
+    font-size: 40px;
+}
+.search {
+    height: 45px;
+    width: 550px;
+    background-color: #f4f4f4;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+.search img {
+    width: 16px;
+}
+.search input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-left: 15px;
+}
+.search button {
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+    margin-left: 260px;
+    transition: .4s;
+}
+.search button:hover {
+    color: #bac34e;
+}
+.header-icons {
+    display: flex;
+    gap: 15px;
+}
+.header-icons span {
+    height: 45px;
+    width: 45px;
+    background-color: #f6f3e3;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .4s;
+}
+.header-icons span:first-child {
+    background-color: #e8f8f7;
+} 
+.header-icons span:nth-child(2) {
+    background-color: #f6f3e3;
+}
+.header-icons span:last-child {
+    background-color: #f3e5dc;
+} 
+.header-icons img {
+    width: 16px;
+    transition: .4s;
+}
+.header-icons span:hover {
+    background-color: #bac34e;
+}
+.header-icons span:hover img {
+    filter: invert(1);
+}
+
+.nav {
+    display: flex;
+    height: 60px;
+    background-color: #0a472e;
+    padding: 10px 0px;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 0 60px 0 30px;
+    cursor: pointer;
+    gap: 10px;
+}
+.nav-left img {
+    width: 15px;
+    filter: invert(1);
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #fff;
+    padding: 0 60px;
+    gap: 30px;
+}
+.nav-right a {
+    color: #fff;
+    font-weight: 700;
+    transition: .4s;
+}
+.nav-right a:hover {
+    color: #bac34e;
+    transition: .4s;
+}

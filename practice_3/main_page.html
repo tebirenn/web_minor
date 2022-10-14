@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Book</title>
+    <style>
+        body {
+            padding: 0 10%;
+            font-family: 'Poppins', sans-serif;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        header {
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #000;
+        }
+        header a {
+            color: #000;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        #nav {
+            display: flex;
+            gap: 20px;
+        }
+        
+        #main_info {
+            margin-top: 50px;
+            display: flex;
+            gap: 100px;
+        }
+        #main_info img {
+            width: 400px;
+        }
+        #main_desc h1 {
+            border-bottom: 1px solid #000;
+        }
+        #active-link {
+            color: #00f;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Main Page</h1>
+        <div id="nav">
+            <a id="active-link" href="main_page.html">Main</a>
+            <a href="char_page.html">Character</a>
+            <a href="rec_page.html">Recomendation</a>
+        </div>
+    </header>
+    
+    <section id="main_info">
+        <img 
+            src="images/greenbook.jpg" 
+            alt="green_book_poster"
+        >
+        <div id="main_desc">
+            <h1>Green Book</h1>
+            <h3>Description</h3>
+            <p>The film is inspired by the true story of a 1962 tour of the Deep South by African-American pianist Don Shirley and Italian-American bouncer and later actor Frank "Tony Lip" Vallelonga, who served as Shirley's driver and bodyguard.</p>
+            <p>Written by Farrelly alongside Lip's son Nick Vallelonga and Brian Hayes Currie, the film is based on interviews with Lip and Shirley, as well as letters Lip wrote to his then-wife.</p>
+            <p>Green Book had its world premiere at the Toronto International Film Festival on September 11, 2018, where it won the People's Choice Award. It was then theatrically released in the United States on November 16, 2018, by Universal Pictures, and grossed $321 million worldwide.</p>
+            <hr>
+            <p><b>Directed by: </b>Peter Farrelly</p>
+            <p><b>Written by: </b>Nick Vallelonga</p>
+            <p><b>Music by: </b>Kris Bowers</p>
+            <p><b>Country: </b>	United States</p>
+        </div>
+    </section>
+</body>
+</html>

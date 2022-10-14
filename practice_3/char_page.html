@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Book</title>
+    <style>
+        body {
+            padding: 0 10%;
+            font-family: 'Poppins', sans-serif;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        header {
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #000;
+        }
+        header a {
+            color: #000;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        #main_info {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            gap: 40px;
+        }
+        #nav {
+            display: flex;
+            gap: 20px;
+        }
+        .char_info img {
+            width: 500px;
+        }
+        .char_info {
+            display: flex;
+            gap: 20px;
+        }
+        .char_info h1 {
+            border-bottom: 1px solid #000;
+        }
+        #active-link {
+            color: #00f;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Characters</h1>
+        <div id="nav">
+            <a href="main_page.html">Main</a>
+            <a id="active-link" href="char_page.html">Character</a>
+            <a href="rec_page.html">Recomendation</a>
+        </div>
+    </header>
+    
+    <section id="main_info">
+        <div class="char_info" id="tony">
+            <img src="images/tony.jpg" alt="">
+            <div>
+                <h1>Tony "Lip" Vallelonga</h1>
+                <p>A tough Italian-American bouncer who is tasked with acting as a driver and bodyguard for a prominent black pianist. Tony is portrayed as a hard-nosed bigot in the beginning of the film, reluctant to take a job working for a black man, and he does not get along naturally with Don Shirley's more mannered and snobbish personality. As they spend more time on the road, however, and Vallelonga witnesses the injustices of racism in the American South, he begins to soften and connect with Shirley more. When we first meet him, Tony works at the Copacabana nightclub, and is known for his ability to "bullshit," a talent from which he gets the nickname "Tony Lip." He is brutish, unmannered, rough around the edges, and loud, all qualities that bother Shirley, who asks Vallelonga to try to maintain a softer and more mannered countenance on the drive.</p>
+            </div>
+        </div>
+        <div class="char_info" id="shirley">
+            <img src="images/shirley.webp" alt="">
+            <div>
+                <h1>Don Shirley</h1>
+                <p>Don Shirley is a snobbish, polite, and mild-mannered concert pianist. While he does not appreciate Vallelonga's more exuberant and loud-mouthed affects at first, he comes to appreciate them in time as the two become closer. Indeed, Don is often put off by Vallelonga's attitude and finds him coarse and impolite. Don Shirley is a markedly talented musician, but he runs up against the racist attitudes of various audiences throughout his tour; while people appreciate what he can do onstage, they disrespect him when he is not playing. The segregation of the United States at the time that Don is playing music and touring creates isolating and lonely experiences as well as violent and dangerous ones. While Don is musically gifted and worldly, he does not know much about contemporary culture.</p>
+            </div>
+        </div>
+        <div class="char_info" id="dolores">
+            <img src="images/dolores.webp" alt="">
+            <div>
+                <h1>Dolores Vallelonga</h1>
+                <p>Dolores is Tony's wife, who worries about the well-being of her family and agrees that Tony should go on the road as a chauffeur and bodyguard, even though it will be mean he'll be away for a long time. It is her consent that gets Don to offer Tony the job, and she is portrayed as more sympathetic to the plight of black Americans at the beginning of the film.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
