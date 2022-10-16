@@ -28,7 +28,7 @@ header {
     height: 60px;
     box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
 }
-header div:first-child img {
+header > a:first-child img {
     width: 120px;
 }
 header div:nth-child(2) {
@@ -50,13 +50,16 @@ header div:nth-child(2) input::placeholder {
     font-size: 14px;
     font-weight: 500;
 }
-header div:nth-child(2) button {
+header div:nth-child(2) a {
     width: 52px;
     background-color: transparent;
     border: none;
     border-left: 1px solid rgba(22, 24, 35, .12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-header div:nth-child(2) button img {
+header div:nth-child(2) a img {
     width: 40%;
     filter: invert(59%) sepia(0%) saturate(550%) hue-rotate(91deg) brightness(104%) contrast(82%);
 }
@@ -266,4 +269,27 @@ section {
     padding: 5px;
     justify-content: space-between;
     background-color: #6c6c6c;
+    border-radius: 5px;
+}
+.streams-row--item > span:last-child {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    gap: 10px;
+}
+.streams-row--item > span:last-child h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.streams-row--item > span:last-child p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #16182380;
+}
+.row-avatar {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #6c6c6c;
+    border-radius: 100%;
 }
