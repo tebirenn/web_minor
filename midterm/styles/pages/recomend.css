@@ -91,16 +91,17 @@ header div:last-child a {
     background-color: #6c6c6c;
 }
 section {
-    padding: 0 14%;
+    padding: 0 0 0 14%;
     display: flex;
     max-height: calc(100vh - 60px);
+    justify-content: space-between;
 }
 #section-left {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 25px 0;
-    width: 29%;
+    width: 25%;
     overflow: hidden;
     transition: .4s;
 }
@@ -117,6 +118,7 @@ section {
     align-items: center;
     gap: 5px;
     font-weight: 700;
+    color: #000;
 }
 .side-line {
     display: flex;
@@ -174,4 +176,112 @@ section {
 #section-left footer span p:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+#section-right {
+    width: 69%;
+    padding: 4% 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow: hidden;
+}
+#section-right:hover {
+    overflow-y: scroll;
+}
+.right--item {
+    display: flex;
+    gap: 20px;
+}
+.item-author-avatar {
+    display: flex;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background-color: #6c6c6c;
+}
+.item-video {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.acc-names {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.acc-names a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+.acc-names p {
+    font-size: 14px;
+    font-weight: 300;
+    
+}
+.hashtags {
+    display: flex;
+    gap: 5px;
+}
+.hashtags p {
+    font-size: 14px;
+    font-weight: 500;
+}
+.music {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.music p {
+    font-size: 16px;
+    font-weight: 600;
+}
+.music img {
+    width: 16px;
+}
+
+.subscribe-btn {
+    background-color: transparent;
+    border: 1px solid rgba(254, 44, 85, 1);
+    color: rgba(254, 44, 85, 1);
+    padding: 10px;
+    height: 25px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.item-video-part {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+}
+.item-video-part > span:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.video-grade-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.video-grade-btn button {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    border: none;
+}
+.video-grade-btn img {
+    width: 50%;
+}
+.video-grade-btn p {
+    font-size: 12px;
+    font-weight: 700;
+}
+.video {
+    display: flex;
+    width: 280px;
+    height: 500px;
+    background-color: #6c6c6c;
+    border-radius: 8px;
 }
