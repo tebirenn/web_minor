@@ -85,6 +85,13 @@ header > div:last-child a {
     display: flex;
     align-items: center;
 }
+.account-avatar {
+    display: block;
+    background-color: #6c6c6c;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
 #header-account-avatar {
     display: flex;
     width: 30px;

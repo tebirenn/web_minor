@@ -132,202 +132,159 @@ header > div:last-child a {
     font-size: 14px;
     font-weight: 600;
 }
-
 section {
-    padding: 0 0 0 14%;
     display: flex;
+    justify-content: space-between;
+    padding: 1% 14%;
+    background-color: #f8f8f8;
     max-height: calc(100vh - 60px);
-    /* justify-content: space-between; */
 }
-#section-left {
+#message-from {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 25px 0;
-    width: 25%;
-    overflow: hidden;
-    transition: .4s;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 33%;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 6%);
 }
-#section-left:hover {
+#message-from > div:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+#messages {
+    overflow: hidden;
+}
+#messages:hover {
     overflow-y: scroll;
 }
-#main-left-menu {
+.message-item {
+    display: flex;
+    gap: 10px;
+    padding: 8px 20px;
+    transition: .1s;
+    position: relative;
+}
+.message-item > img {
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    width: 1.5em;
+    display: none;
+}
+.message-item:hover.message-item > img {
+    display: flex;
+}
+.message-item:hover {
+    background-color: #f3f3f3;
+}
+.messager-avatar {
+    display: block;
+    width: 55px;
+    height: 55px;
+    background-color: #6c6c6c;
+    border-radius: 100%;
+}
+.message-item > div {
     display: flex;
     flex-direction: column;
-    gap: 14px;
-}
-.side-menu {
-    display: flex;
-    align-items: center;
+    justify-content: center;
     gap: 5px;
-    font-weight: 700;
-    color: #000;
 }
-.side-line {
-    display: flex;
-    width: 98%;
-    border-bottom: 0.5px solid #1618231F;
-}
-.side-account {
-    display: flex;
-}
-.main-left-recomendation {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-.main-left-recomendation > p {
-    font-size: 14px;
+.messager-login {
+    font-size: 16px;
     font-weight: 500;
 }
-.main-left-recomendation > p:last-child {
-    color: #fe2c55;
+.message-item > div span {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.message-item > div span h6 {
+    font-size: 12px;
+    font-weight: 500;
+}
+.message-item > div span p {
+    font-size: 12px;
+    font-weight: 400;
+}
+#message-part {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 65%;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 6%);
+}
+#messager-info {
+    display: flex;
+    gap: 10px;
+    padding: 10px 1.5%;
+    border-bottom: 1px solid #ededed;
+}
+#messager-info > span:first-child {
+    display: block;
+    width: 48px;
+    height: 48px;
+    background-color: #6c6c6c;
+    border-radius: 100%;
+}
+#messager-info > span:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+#messager-info > span:last-child p {
+    font-size: 14px;
+}
+#messager-info > span:last-child p:first-child {
     font-weight: 600;
 }
-.side-account {
+#all-messages-from {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 15px;
+    gap: 15px;
+}
+#all-messages-from:hover {
+    overflow-y: scroll;
+}
+#all-messages-from > div {
     display: flex;
     gap: 10px;
 }
-.side-account h6 {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    font-size: 16px;
-}
-.side-account p {
-    font-size: 12px;
-    color: #161823BF;
-}
-#section-left footer {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-#section-left footer p {
-    font-size: 10px;
-    font-weight: 500;
-}
-#section-left footer > span {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-#section-left footer > span > span {
-    display: flex;
-    gap: 5px;
-}
-#section-left footer span p:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-#section-right {
-    width: 58%;
-    padding: 4% 1%;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    gap: 20px;
-}
-#section-right:hover {
-    overflow-y: scroll;
-}
-#finded-accounts { 
-    display: flex;
-    flex-direction: column;
-}
-#finded-accounts > span {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 5px;
-    border-top: 1px solid #ebebeb;
-}
-#finded-accounts > span p {
-    font-weight: 700;
-}
-#finded-accounts > span a {
-    color: #000;
-    font-size: 14px;
-    font-weight: 500;
-}
-.finded-account--item {
-    display: flex;
-    padding: 15px 20px;
-    gap: 20px;
-    border-bottom: 1px solid #e1e1e1;
-    transition: .4s;
-    color: #000;
-}
-.finded-account--item:hover {
-    background-color: #f3f3f3;
-}
-.finded-account--item .finded-avatar {
+#all-messages-from > div span:first-child {
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 32px;
+    height: 32px;
     background-color: #6c6c6c;
     border-radius: 100%;
 }
-.finded-account--item > span:last-child {
-    display: flex;
-    flex-direction: column;
-    padding-top: 8px;
-}
-.finded-account--item > span:last-child h3 {
-    font-size: 16px;
-}
-.finded-account--item > span:last-child p {
-    font-size: 12px;
-}
-#finded-videos {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 5px;
-    gap: 20px;
-}
-#finded-videos > p {
-    font-weight: 700;
-}
-.search-video-row {
-    display: flex;
-    justify-content: space-between;
-}
-.search-row--item {
-    display: flex;
-    flex-direction: column;
-    width: 32%;
-    gap: 8px;
-}
-.item-video {
-    display: flex;
+#all-messages-from > div span:last-child {
     background-color: #6c6c6c;
-    color: #fff;
-    width: 100%;
-    height: 310px;
-    align-items: flex-end;
-    padding: 12px 10px;
-    font-weight: 600;
-    border-radius: 5px;
+    width: 180px;
+    height: 320px;
+    border-radius: 8px;
 }
-.search-row--item > div {
+#send-message-wrap {
+    border-top: 1px solid #ededed;
+    padding: 15px;
+}
+#send-message {
+    background-color: #f1f1f2;
     display: flex;
     justify-content: space-between;
-}
-.search-row--item > div > span {
-    display: flex;
+    padding: 8px 15px;
+    border-radius: 10px;
     align-items: center;
-    gap: 3px;
 }
-.search-row--item > div > span p {
-    color: #161823BF;
-}
-.item-desc {
-    font-size: 16px;
-    font-weight: 500;
-}
-.item-avatar {
-    display: block;
-    width: 24px;
-    height: 24px;
-    background-color: #6c6c6c;
-    border-radius: 100%;
+#send-message input {
+    width: 95%;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    outline: none;
 }
