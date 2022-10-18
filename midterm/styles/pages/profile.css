@@ -68,7 +68,7 @@ header > div:last-child {
     align-items: center;
     gap: 20px;
 }
-header > div:last-child button:first-child {
+.new-video-btn {
     height: 36px;
     width: 135px;
     background-color: #fff;
@@ -77,13 +77,16 @@ header > div:last-child button:first-child {
     font-size: 16px;
     font-weight: 500;
     border: 1px solid rgba(22, 24, 35, 0.12);
+    color: #000;
+    justify-content: center;
 }
-header > div:last-child button:first-child svg {
+.new-video-btn svg {
     width: 20px;
 }
 header > div:last-child a {
     display: flex;
     align-items: center;
+    color: #000;
 }
 #header-account-avatar {
     display: flex;
@@ -286,16 +289,19 @@ section {
 .profile-row--item {
     width: 15%;
 }
-.profile-row--item span {
+.profile-row--item > span {
     height: 250px;
     background-color: #6c6c6c;
     border-radius: 5px;
     display: flex;
     align-items: flex-end;
     padding: 10px;
-    gap: 5px;
     color: #fff;
     font-weight: 600;
+}
+.profile-row--item > span > span {
+    display: flex;
+    align-items: center;
 }
 .profile-row--item p {
     margin: 5px;
