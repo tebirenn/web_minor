@@ -230,7 +230,7 @@
                         </span>
                     </div>
                 </div>
-                <button class="subscribe-btn">Подписаться</button>
+                <button class="subscribe-btn" onclick="sub(this)">Подписаться</button>
             </div>
             <span class="side-line"></span>
             <div class="right--item">
@@ -267,9 +267,24 @@
                         </span>
                     </div>
                 </div>
-                <button class="subscribe-btn">Подписаться</button>
+                <button class="subscribe-btn" onclick="sub(this)">Подписаться</button>
             </div>
         </div>
     </section>
+
+    <script>
+        const sub = (e) => {
+            const btn = e;
+            if (btn.innerHTML === "Подписаться") {
+                btn.innerHTML = "Отписаться";
+                btn.style.border = "1px solid #6c6c6c";
+                btn.style.color = "#6c6c6c";
+            } else {
+                btn.innerHTML = "Подписаться";
+                btn.style.border = "1px solid #fe2c55";
+                btn.style.color = "#fe2c55";
+            }
+        };
+    </script>
 </body>
 </html>
