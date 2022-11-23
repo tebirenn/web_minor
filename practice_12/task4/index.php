@@ -8,9 +8,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="menu-btn">
-        <div id="menu-btn--burger"></div>
-    </div>
+    <aside>
+        <div>
+            <div id="menu-btn">
+                <div id="menu-btn--burger"></div>
+            </div>
+        </div>
+
+        <div id="menu-links">
+            <a href="">Home</a>
+            <a href="">About us</a>
+            <a href="">Settings</a>
+            <a href="">Contact</a>
+            <a href="">Exit</a>
+        </div>
+
+    </aside>
 
     <script src="script.js"></script>
 </body>

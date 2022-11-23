@@ -8,20 +8,37 @@
 body {
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    position: relative;
 }
+
+aside {
+    background-color: #272727;
+    width: 250px;
+    padding: 0 10px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -160px;
+    transition: all .5s ease-in-out;
+}
+
+aside > div:first-child {
+    display: flex;
+    justify-content: right;
+}
+
+
 #menu-btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #272727;
+    background-color: #000;
     height: 80px;
     width: 80px;
     transition: all .5s ease-in-out;
     cursor: pointer;
     border-radius: 15px;
+    transform: scale(0.4);
 }
 #menu-btn--burger {
     width: 50px;
@@ -56,4 +73,28 @@ body {
 }
 #menu-btn.opened #menu-btn--burger::after {
     transform: rotate(-45deg) translate(35px, 35px);
+}
+
+
+
+#menu-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding-left: 20px;
+}
+#menu-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .2s;
+}
+#menu-links a:hover {
+    color: #a9a9a9;
+}
+
+
+.opened {
+    left: 0;
 }

@@ -12,8 +12,12 @@
 </head>
 <body>
 
-    <h2>Web Site Indicator</h2>
-    <div id="indicator"></div>
+    <div id="loading">
+        <div id="percent"></div>
+        <div id="progress-bar">
+            <span id="progress"></span>
+        </div>
+    </div>
 
     <script src="script.js"></script>    
 </body>
