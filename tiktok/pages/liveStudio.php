@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tik Tok</title>
+    <title>TikTok</title>
     <link rel="stylesheet" href="../styles/need.css">
     <link rel="stylesheet" href="../styles/pages/liveStudio.css">
     <link rel="icon" href="../images/tt2.svg">

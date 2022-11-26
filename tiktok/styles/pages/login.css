@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section {
+    width: 32%;
+    padding: 80px 4%;
+    border: 1px solid rgba(22, 24, 35, 0.12);
+    border-radius: 10px;
+}
+section > h1 {
+    margin-bottom: 20px;
+    margin: 0 auto 20px;
+    font-size: 32px;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form > span > p {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+form > span > input {
+    width: 100%;
+    background-color: #f1f1f2;
+    height: 45px;
+    border: 1px solid rgba(22, 24, 35, 0.12);
+    border-radius: 4px;
+    outline: none;
+    padding: 0 10px;
+}
+form > button {
+    height: 45px;
+    border: none;
+    background-color: #fe2c55;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+section > p {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 20px;
+}
+section > p > a {
+    color: #fe2c55;
+    font-weight: 600;
+}
+form #errorAuth {
+    color: #fe2c55;
+    font-size: 12px;
+    font-weight: 500;
+}

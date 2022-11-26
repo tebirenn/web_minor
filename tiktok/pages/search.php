@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tik Tok</title>
+    <title>TikTok</title>
     <link rel="stylesheet" href="../styles/need.css">
-    <link rel="stylesheet" href="../styles/pages/recomend.css">
+    <link rel="stylesheet" href="../styles/pages/search.css">
     <link rel="icon" href="../images/tt2.svg">
 </head>
 <body>
@@ -23,7 +23,7 @@
                 <svg  viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 2.5C7.58579 2.5 7.25 2.83579 7.25 3.25V7.25H3.25C2.83579 7.25 2.5 7.58579 2.5 8C2.5 8.41421 2.83579 8.75 3.25 8.75H7.25V12.75C7.25 13.1642 7.58579 13.5 8 13.5C8.41421 13.5 8.75 13.1642 8.75 12.75V8.75H12.75C13.1642 8.75 13.5 8.41421 13.5 8C13.5 7.58579 13.1642 7.25 12.75 7.25H8.75V3.25C8.75 2.83579 8.41421 2.5 8 2.5Z"></path></svg>
                 <p>Загрузить</p>
             </a>
-            <a href="messages.html" class="message-btn">
+            <a href="messages.html">
                 <svg width="26" height="26" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.17877 7.17357C2.50304 6.45894 3.21528 6 4.00003 6H44C44.713 6 45.372 6.37952 45.7299 6.99615C46.0877 7.61278 46.0902 8.37327 45.7365 8.99228L25.7365 43.9923C25.3423 44.6821 24.5772 45.0732 23.7872 44.9886C22.9972 44.9041 22.3321 44.3599 22.0929 43.6023L16.219 25.0017L2.49488 9.31701C1.97811 8.72642 1.85449 7.88819 2.17877 7.17357ZM20.377 24.8856L24.531 38.0397L40.5537 10H8.40757L18.3918 21.4106L30.1002 14.2054C30.5705 13.9159 31.1865 14.0626 31.4759 14.533L32.5241 16.2363C32.8136 16.7066 32.6669 17.3226 32.1966 17.612L20.377 24.8856Z"></path></svg>
             </a>
             <a>
@@ -55,8 +55,8 @@
         <div id="section-left">
             <div id="main-left-menu">
                 <a href="recomend.html" class="side-menu">
-                    <svg width="32" height="32" viewBox="0 0 48 48" fill="rgba(254, 44, 85, 1)" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M24.9505 7.84001C24.3975 7.38666 23.6014 7.38666 23.0485 7.84003L6.94846 21.04C6.45839 21.4418 6.2737 22.1083 6.48706 22.705C6.70041 23.3017 7.26576 23.7 7.89949 23.7H10.2311L11.4232 36.7278C11.5409 38.0149 12.6203 39 13.9128 39H21.5C22.0523 39 22.5 38.5523 22.5 38V28.3153C22.5 27.763 22.9477 27.3153 23.5 27.3153H24.5C25.0523 27.3153 25.5 27.763 25.5 28.3153V38C25.5 38.5523 25.9477 39 26.5 39H34.0874C35.3798 39 36.4592 38.0149 36.577 36.7278L37.7691 23.7H40.1001C40.7338 23.7 41.2992 23.3017 41.5125 22.705C41.7259 22.1082 41.5412 21.4418 41.0511 21.04L24.9505 7.84001Z"></path></svg>
-                    <p class="red-text">Рекомендуем</p>
+                    <svg width="32" height="32" viewBox="0 0 48 48" fill="rgba(22, 24, 35, 1)" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.0484 7.84003C23.6014 7.38666 24.3975 7.38666 24.9504 7.84001L41.051 21.04C41.5411 21.4418 41.7258 22.1082 41.5125 22.705C41.2991 23.3017 40.7338 23.7 40.1 23.7H37.769L36.5769 36.7278C36.4592 38.0149 35.3798 39 34.0873 39H13.9127C12.6202 39 11.5409 38.0149 11.4231 36.7278L10.231 23.7H7.89943C7.2657 23.7 6.70035 23.3017 6.487 22.705C6.27364 22.1083 6.45833 21.4418 6.9484 21.04L23.0484 7.84003ZM23.9995 10.9397L12.0948 20.7H12.969L14.369 36H22.4994V28.3138C22.4994 27.7616 22.9471 27.3138 23.4994 27.3138H24.4994C25.0517 27.3138 25.4994 27.7616 25.4994 28.3138V36H33.631L35.031 20.7H35.9045L23.9995 10.9397Z"></path></svg>
+                    <p>Рекомендуем</p>
                 </a>
                 <a href="subs.html" class="side-menu">
                     <svg width="32" height="32" viewBox="0 0 48 48" fill="rgba(22, 24, 35, 1)" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M18 12.5C15.5897 12.5 13.5849 14.5018 13.5849 17.0345C13.5849 19.5672 15.5897 21.569 18 21.569C20.4103 21.569 22.4151 19.5672 22.4151 17.0345C22.4151 14.5018 20.4103 12.5 18 12.5ZM10.5849 17.0345C10.5849 12.9017 13.8766 9.5 18 9.5C22.1234 9.5 25.4151 12.9017 25.4151 17.0345C25.4151 21.1673 22.1234 24.569 18 24.569C13.8766 24.569 10.5849 21.1673 10.5849 17.0345ZM18 29.8793C14.0801 29.8793 10.7403 32.5616 9.69697 36.2673C9.5473 36.7989 9.03833 37.1708 8.49337 37.0811L7.50662 36.9189C6.96166 36.8292 6.58837 36.3131 6.72325 35.7776C8.00732 30.6788 12.5509 26.8793 18 26.8793C23.449 26.8793 27.9927 30.6788 29.2767 35.7776C29.4116 36.3131 29.0383 36.8292 28.4934 36.9189L27.5066 37.0811C26.9617 37.1708 26.4527 36.7989 26.303 36.2673C25.2597 32.5616 21.9199 29.8793 18 29.8793Z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M33 31.5371C32.2445 31.5371 31.5198 31.668 30.8447 31.9093C30.3246 32.0951 29.7189 31.9243 29.4549 31.4392L28.9769 30.5608C28.713 30.0757 28.8907 29.463 29.4009 29.2516C30.513 28.791 31.7285 28.5371 33 28.5371C37.4554 28.5371 41.1594 31.6303 42.2706 35.7812C42.4135 36.3147 42.0386 36.8308 41.4935 36.9196L40.5065 37.0804C39.9614 37.1692 39.4546 36.7956 39.2894 36.2686C38.4217 33.5 35.91 31.5371 33 31.5371Z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M33 18.5C31.6193 18.5 30.5 19.6193 30.5 21C30.5 22.3807 31.6193 23.5 33 23.5C34.3807 23.5 35.5 22.3807 35.5 21C35.5 19.6193 34.3807 18.5 33 18.5ZM27.5 21C27.5 17.9624 29.9624 15.5 33 15.5C36.0376 15.5 38.5 17.9624 38.5 21C38.5 24.0376 36.0376 26.5 33 26.5C29.9624 26.5 27.5 24.0376 27.5 21Z"></path></svg>
@@ -144,7 +144,7 @@
                         </h6>
                         <p>Account name</p>
                     </span>
-                </a>
+                </a> 
                 <a href="otherProfile.html" class="side-account">
                     <span class="account-avatar"></span>
                     <span>
@@ -196,95 +196,172 @@
             </footer>
         </div>
         <div id="section-right">
-            <div class="right--item">
-                <a href="otherProfile.html" class="item-author-avatar"></a>
-                <div class="item-video">
-                    <span class="acc-names">
-                        <a href="">acc-login</a>
-                        <p>acc-name</p>
+            <div id="finded-accounts">
+                <span>
+                    <p>Аккаунты</p>
+                    <a href="">
+                        <svg class="tiktok-1kz5qfu-StyledChevronLeftOffset ea3pfar8" width="10" height="10" viewBox="0 0 48 48" fill="#161823" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.58579 22.5858L20.8787 6.29289C21.2692 5.90237 21.9024 5.90237 22.2929 6.29289L23.7071 7.70711C24.0976 8.09763 24.0976 8.7308 23.7071 9.12132L8.82843 24L23.7071 38.8787C24.0976 39.2692 24.0976 39.9024 23.7071 40.2929L22.2929 41.7071C21.9024 42.0976 21.2692 42.0976 20.8787 41.7071L4.58579 25.4142C3.80474 24.6332 3.80474 23.3668 4.58579 22.5858Z"></path></svg>
+                        Развернуть
+                    </a>
+                </span>
+                <a href="otherProfile.html" class="finded-account--item">
+                    <span class="finded-avatar"></span>
+                    <span>
+                        <h3>Searched login</h3>
+                        <p>Account name . <b>228</b> Подписчики</p>
                     </span>
-                    <span class="hashtags">
-                        <p>#tiktok</p>
-                        <p>#abc</p>
-                        <p>#rec</p>
+                </a>
+                <a href="otherProfile.html" class="finded-account--item">
+                    <span class="finded-avatar"></span>
+                    <span>
+                        <h3>Searched login</h3>
+                        <p>Account name . <b>228</b> Подписчики</p>
                     </span>
-                    <span class="music">
-                        <img src="../images/music.svg" alt="">
-                        <p>The Weekend - Starboy</p>
+                </a>
+                <a href="otherProfile.html" class="finded-account--item">
+                    <span class="finded-avatar"></span>
+                    <span>
+                        <h3>Searched login</h3>
+                        <p>Account name . <b>228</b> Подписчики</p>
                     </span>
-                    <div class="item-video-part">
-                        <span class="video"></span>
-                        <span>
-                            <span class="video-grade-btn">
-                                <button><img src="../images/like.svg" alt=""></button>
-                                <p>1.2M</p>
-                            </span>
-                            <span class="video-grade-btn">
-                                <button><img src="../images/comment.svg" alt=""></button>
-                                <p>12.9K</p>
-                            </span>
-                            <span class="video-grade-btn">
-                                <button><img src="../images/share.svg" alt=""></button>
-                                <p>993</p>
-                            </span>
-                        </span>
-                    </div>
-                </div>
-                <button class="subscribe-btn" onclick="sub(this)">Подписаться</button>
+                </a>
             </div>
-            <span class="side-line"></span>
-            <div class="right--item">
-                <a href="otherProfile.html" class="item-author-avatar"></a>
-                <div class="item-video">
-                    <span class="acc-names">
-                        <a href="">acc-login</a>
-                        <p>acc-name</p>
-                    </span>
-                    <span class="hashtags">
-                        <p>#tiktok</p>
-                        <p>#abc</p>
-                        <p>#rec</p>
-                    </span>
-                    <span class="music">
-                        <img src="../images/music.svg" alt="">
-                        <p>The Weekend - Starboy</p>
-                    </span>
-                    <div class="item-video-part">
-                        <span class="video"></span>
-                        <span>
-                            <span class="video-grade-btn">
-                                <button><img src="../images/like.svg" alt=""></button>
-                                <p>1.2M</p>
+            <div id="finded-videos">
+                <p>Видео</p>
+                <div class="search-video-row">
+                    <div class="search-row--item">
+                        <span class="item-video"><p>4-28</p></span>
+                        <p class="item-desc">Description #hashtag</p>
+                        <div>
+                            <span>
+                                <span class="item-avatar"></span>
+                                <p class="item-login">Login</p>
                             </span>
-                            <span class="video-grade-btn">
-                                <button><img src="../images/comment.svg" alt=""></button>
-                                <p>12.9K</p>
+                            <span>
+                                <svg class="like-icon tiktok-b82ygf-StyledPlay etrd4pu9" width="16" height="16" viewBox="0 0 48 48" fill="rgba(22, 24, 35, 0.75)" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 10.554V37.4459L38.1463 24L16 10.554ZM12 8.77702C12 6.43812 14.5577 4.99881 16.5569 6.21266L41.6301 21.4356C43.5542 22.6038 43.5542 25.3962 41.6301 26.5644L16.5569 41.7873C14.5577 43.0012 12 41.5619 12 39.223V8.77702Z"></path></svg>
+                                <p>2.4M</p>
                             </span>
-                            <span class="video-grade-btn">
-                                <button><img src="../images/share.svg" alt=""></button>
-                                <p>993</p>
+                        </div>
+                    </div>
+                    <div class="search-row--item">
+                        <span class="item-video"><p>4-28</p></span>
+                        <p class="item-desc">Description #hashtag</p>
+                        <div>
+                            <span>
+                                <span class="item-avatar"></span>
+                                <p class="item-login">Login</p>
                             </span>
-                        </span>
+                            <span>
+                                <svg class="like-icon tiktok-b82ygf-StyledPlay etrd4pu9" width="16" height="16" viewBox="0 0 48 48" fill="rgba(22, 24, 35, 0.75)" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 10.554V37.4459L38.1463 24L16 10.554ZM12 8.77702C12 6.43812 14.5577 4.99881 16.5569 6.21266L41.6301 21.4356C43.5542 22.6038 43.5542 25.3962 41.6301 26.5644L16.5569 41.7873C14.5577 43.0012 12 41.5619 12 39.223V8.77702Z"></path></svg>
+                                <p>2.4M</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="search-row--item">
+                        <span class="item-video"><p>4-28</p></span>
+                        <p class="item-desc">Description #hashtag</p>
+                        <div>
+                            <span>
+                                <span class="item-avatar"></span>
+                                <p class="item-login">Login</p>
+                            </span>
+                            <span>
+                                <svg class="like-icon tiktok-b82ygf-StyledPlay etrd4pu9" width="16" height="16" viewBox="0 0 48 48" fill="rgba(22, 24, 35, 0.75)" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 10.554V37.4459L38.1463 24L16 10.554ZM12 8.77702C12 6.43812 14.5577 4.99881 16.5569 6.21266L41.6301 21.4356C43.5542 22.6038 43.5542 25.3962 41.6301 26.5644L16.5569 41.7873C14.5577 43.0012 12 41.5619 12 39.223V8.77702Z"></path></svg>
+                                <p>2.4M</p>
+                            </span>
+                        </div>
                     </div>
                 </div>
-                <button class="subscribe-btn" onclick="sub(this)">Подписаться</button>
+                <div class="search-video-row">
+                    <div class="search-row--item">
+                        <span class="item-video"><p>4-28</p></span>
+                        <p class="item-desc">Description #hashtag</p>
+                        <div>
+                            <span>
+                                <span class="item-avatar"></span>
+                                <p class="item-login">Login</p>
+                            </span>
+                            <span>
+                                <svg class="like-icon tiktok-b82ygf-StyledPlay etrd4pu9" width="16" height="16" viewBox="0 0 48 48" fill="rgba(22, 24, 35, 0.75)" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 10.554V37.4459L38.1463 24L16 10.554ZM12 8.77702C12 6.43812 14.5577 4.99881 16.5569 6.21266L41.6301 21.4356C43.5542 22.6038 43.5542 25.3962 41.6301 26.5644L16.5569 41.7873C14.5577 43.0012 12 41.5619 12 39.223V8.77702Z"></path></svg>
+                                <p>2.4M</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="search-row--item">
+                        <span class="item-video"><p>4-28</p></span>
+                        <p class="item-desc">Description #hashtag</p>
+                        <div>
+                            <span>
+                                <span class="item-avatar"></span>
+                                <p class="item-login">Login</p>
+                            </span>
+                            <span>
+                                <svg class="like-icon tiktok-b82ygf-StyledPlay etrd4pu9" width="16" height="16" viewBox="0 0 48 48" fill="rgba(22, 24, 35, 0.75)" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 10.554V37.4459L38.1463 24L16 10.554ZM12 8.77702C12 6.43812 14.5577 4.99881 16.5569 6.21266L41.6301 21.4356C43.5542 22.6038 43.5542 25.3962 41.6301 26.5644L16.5569 41.7873C14.5577 43.0012 12 41.5619 12 39.223V8.77702Z"></path></svg>
+                                <p>2.4M</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="search-row--item">
+                        <span class="item-video"><p>4-28</p></span>
+                        <p class="item-desc">Description #hashtag</p>
+                        <div>
+                            <span>
+                                <span class="item-avatar"></span>
+                                <p class="item-login">Login</p>
+                            </span>
+                            <span>
+                                <svg class="like-icon tiktok-b82ygf-StyledPlay etrd4pu9" width="16" height="16" viewBox="0 0 48 48" fill="rgba(22, 24, 35, 0.75)" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 10.554V37.4459L38.1463 24L16 10.554ZM12 8.77702C12 6.43812 14.5577 4.99881 16.5569 6.21266L41.6301 21.4356C43.5542 22.6038 43.5542 25.3962 41.6301 26.5644L16.5569 41.7873C14.5577 43.0012 12 41.5619 12 39.223V8.77702Z"></path></svg>
+                                <p>2.4M</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-video-row">
+                    <div class="search-row--item">
+                        <span class="item-video"><p>4-28</p></span>
+                        <p class="item-desc">Description #hashtag</p>
+                        <div>
+                            <span>
+                                <span class="item-avatar"></span>
+                                <p class="item-login">Login</p>
+                            </span>
+                            <span>
+                                <svg class="like-icon tiktok-b82ygf-StyledPlay etrd4pu9" width="16" height="16" viewBox="0 0 48 48" fill="rgba(22, 24, 35, 0.75)" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 10.554V37.4459L38.1463 24L16 10.554ZM12 8.77702C12 6.43812 14.5577 4.99881 16.5569 6.21266L41.6301 21.4356C43.5542 22.6038 43.5542 25.3962 41.6301 26.5644L16.5569 41.7873C14.5577 43.0012 12 41.5619 12 39.223V8.77702Z"></path></svg>
+                                <p>2.4M</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="search-row--item">
+                        <span class="item-video"><p>4-28</p></span>
+                        <p class="item-desc">Description #hashtag</p>
+                        <div>
+                            <span>
+                                <span class="item-avatar"></span>
+                                <p class="item-login">Login</p>
+                            </span>
+                            <span>
+                                <svg class="like-icon tiktok-b82ygf-StyledPlay etrd4pu9" width="16" height="16" viewBox="0 0 48 48" fill="rgba(22, 24, 35, 0.75)" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 10.554V37.4459L38.1463 24L16 10.554ZM12 8.77702C12 6.43812 14.5577 4.99881 16.5569 6.21266L41.6301 21.4356C43.5542 22.6038 43.5542 25.3962 41.6301 26.5644L16.5569 41.7873C14.5577 43.0012 12 41.5619 12 39.223V8.77702Z"></path></svg>
+                                <p>2.4M</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="search-row--item">
+                        <span class="item-video"><p>4-28</p></span>
+                        <p class="item-desc">Description #hashtag</p>
+                        <div>
+                            <span>
+                                <span class="item-avatar"></span>
+                                <p class="item-login">Login</p>
+                            </span>
+                            <span>
+                                <svg class="like-icon tiktok-b82ygf-StyledPlay etrd4pu9" width="16" height="16" viewBox="0 0 48 48" fill="rgba(22, 24, 35, 0.75)" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 10.554V37.4459L38.1463 24L16 10.554ZM12 8.77702C12 6.43812 14.5577 4.99881 16.5569 6.21266L41.6301 21.4356C43.5542 22.6038 43.5542 25.3962 41.6301 26.5644L16.5569 41.7873C14.5577 43.0012 12 41.5619 12 39.223V8.77702Z"></path></svg>
+                                <p>2.4M</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-
-    <script>
-        const sub = (e) => {
-            const btn = e;
-            if (btn.innerHTML === "Подписаться") {
-                btn.innerHTML = "Отписаться";
-                btn.style.border = "1px solid #6c6c6c";
-                btn.style.color = "#6c6c6c";
-            } else {
-                btn.innerHTML = "Подписаться";
-                btn.style.border = "1px solid #fe2c55";
-                btn.style.color = "#fe2c55";
-            }
-        };
-    </script>
 </body>
 </html>
